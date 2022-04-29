@@ -1,0 +1,108 @@
+create database mens_table;
+use mens_table;
+create table mens_wear(i_code int(6) primary key, type varchar(10),item_name varchar(50),price int(9));
+
+
+insert into products values(101,"upper wear","Mens Blue Checked Shirt",3000);
+insert into products values(102,"upper wear","Mens Olive Green Checked Shirt",3500);
+insert into products values(103,"upper wear","Mens Light Blue Shirt",3000);
+insert into products values(104,"upper wear","Mens Black T-Shirt",1000);
+insert into products values(105,"upper wear","Mens Black and White T-Shirt",1500);
+
+
+insert into products values(106,"upper wear","Navy Blue colourblocked bomber",2000);
+insert into products values(107,"upper wear","Black Woven Coat",2500);
+insert into products values(109,"upper wear","Men Navy Blue & Black Slim fit Blazer",4000);
+insert into products values(108,"upper wear","Men Grey Slim Fit Casual Blazer",4500);
+
+
+
+insert into products values(110,"upper wear","Men Black Woollen Sweater",2000);
+insert into products values(111,"upper wear","Men's Grey Woollen Sweater",1500);
+insert into products values(112,"upper wear","Sports sweatshirt with a hood",1500);
+insert into products values(113,"upper wear","Sports sweatshirt with a hood",1900);
+insert into products values(114,"upper wear","Solid Green Army Shade Sweatshirt",2000);
+insert into products values(115,"upper wear","Grey Solid Sweatshirt",1800);
+insert into products values(120,"upper wear","Solid Black Sweatshirt",1900);
+
+
+
+
+
+insert into products values(115,"lower wear","Men Blue Skinny blue denim Jeans",2000);
+insert into products values(116,"lower wear","Men Navy Dark Blue Skinny  Jeans",2500);
+insert into products values(117,"lower wear","Black dark wash mid-rise jeans",2200);
+insert into products values(118,"lower wear","Blue medium blue mid-rise jeans",2400);
+insert into products values(119,"lower wear","Dark Blue medium mid-rise jeans",3000);
+
+
+
+
+insert into products values(121,"lower wear","Men Black Formal Trousers",1900);
+insert into products values(122,"lower wear","Mens Khaki Colour Formal Trousers",2000);
+insert into products values(123,"lower wear","Navy blue formal trousers",1800);
+insert into products values(124,"lower wear","Men Dark Grey Checked Formal Trousers",1700);
+insert into products values(125,"lower wear","Men's Light Grey Formal Trousers",1700);
+
+
+
+insert into products values(126,"lower wear","White solid mid-rise chino shorts",1500);
+insert into products values(127,"lower wear","Dark Green solid mid-rise chino shorts",1300);
+insert into products values(128,"lower wear","Cream coloured mid-rise chino shorts",1350);
+insert into products values(129,"lower wear","Black solid mid-rise chino shorts",1450);
+insert into products values(130,"lower wear","Navy Blue solid mid-rise chino shorts",1290);
+insert into products values(131,"lower wear","Denim solid mid-rise chino shorts",1450); 
+
+
+
+create table cart(i_code int(6),item_name varchar(50),type varchar(20),size varchar(5), price int (9));
+
+
+
+
+insert into products values(224,"Indian","Women White Solid Kurta ",3999);
+insert into products values(225,"Indian","Women Green & Grey Embroidered Kurta",10799);
+insert into products values(226,"Indian","Women White Solid Kurta",5799);
+insert into products values(227,"Indian","Women Pink Embroidered Kurta",9999);
+
+
+insert into products values(230,"Indian","Women Off-White & Golden Printed Palazzos",1999);
+insert into products values(231,"Indian","Women Blue & White Flared Block Print Palazzos",1899);
+insert into products values(232,"Indian","Pink & Gold Printed Straight Palazzo",1899);
+insert into products values(233,"Indian","Women Blue Striped Flared Palazzos",1499);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
